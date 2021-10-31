@@ -1,5 +1,7 @@
 # Mandelbrot plotter
 
+## Performance
+
 Single-threaded version (`time` output):
 
 ```text
@@ -9,3 +11,7 @@ Single-threaded version (`time` output):
 100% CPU (0avgtext+0avgdata 16708maxresident)k
 0inputs+3656outputs (0major+3641minor)pagefaults 0swaps
 ```
+
+## Example
+
+![Mandelbrot](mandel.png?raw=true "Mandelbrot")
