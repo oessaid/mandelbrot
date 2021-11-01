@@ -22,7 +22,7 @@ use num::Complex;
 ///                                    |
 ///                               lower_right
 /// ```
-fn pixel_to_point(
+pub fn pixel_to_point(
     bounds: (usize, usize),
     pixel: (usize, usize),
     upper_left: Complex<f64>,

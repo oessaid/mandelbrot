@@ -32,5 +32,5 @@ mod write;
 pub use errors::WriteImageError;
 pub use maths::escape_time;
 pub use parse::{parse_complex, parse_pair};
-pub use render::render;
+pub use render::{pixel_to_point, render};
 pub use write::write_image;
