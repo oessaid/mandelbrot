@@ -40,6 +40,8 @@ Multi-threaded version (using `rayon`):
 0inputs+3656outputs (0major+3693minor)pagefaults 0swaps
 ```
 
+### Leveraging `rayon`'s work-stealing with one task per pixel row
+
 Multi-threaded version (using `rayon`, one task per pixel row):
 
 ```text
